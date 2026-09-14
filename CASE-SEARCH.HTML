@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Search | Malindi Law Court</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <span>JUDICIARY INFORMATION PORTAL</span>
+    <span>Justice • Service • Integrity</span>
+</header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <div class="logo-icon">⚖</div>
+        <div>
+            <h2>Malindi Law Court</h2>
+            <small>Justice • Service • Integrity</small>
+        </div>
+    </div>
+
+    <button class="menu-btn" id="menuButton">☰</button>
+
+    <ul class="nav-links" id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="cause-list.html">Cause List</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="case-search.html" class="active">Case Search</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<section class="page-header">
+
+    <div>
+        <span>CASE INFORMATION</span>
+        <h1>Case Search</h1>
+        <p>Search publicly available case information</p>
+    </div>
+
+</section>
+
+
+<section class="search-section">
+
+    <div class="search-box">
+
+        <span class="section-label">CASE SEARCH</span>
+
+        <h2>Find Case Information</h2>
+
+        <p>
+            Enter an authorized case reference or search term.
+        </p>
+
+        <div class="search-form">
+
+            <input type="text"
+                   id="caseInput"
+                   placeholder="Enter case number or keyword">
+
+            <button class="btn btn-gold"
+                    onclick="searchCase()">
+                🔎 Search
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div id="searchResult" class="search-result">
+
+        <h3>Search Results</h3>
+
+        <p>
+            Enter a search term above to view demonstration results.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="privacy-note">
+
+    <div>
+        <h3>🔐 Privacy & Security</h3>
+        <p>
+            Only information authorized for public access should be
+            published through a court information portal.
+        </p>
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>⚖ Malindi Law Court</h2>
+            <p>Justice • Service • Integrity</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+        </div>
+
+        <div>
+            <h3>Information</h3>
+            <a href="cause-list.html">Cause List</a>
+            <a href="notices.html">Notices</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Malindi Law Court Information Portal.
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

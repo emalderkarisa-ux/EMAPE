@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cause List | Malindi Law Court</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <span>JUDICIARY INFORMATION PORTAL</span>
+    <span>Justice • Service • Integrity</span>
+</header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <div class="logo-icon">⚖</div>
+        <div>
+            <h2>Malindi Law Court</h2>
+            <small>Justice • Service • Integrity</small>
+        </div>
+    </div>
+
+    <button class="menu-btn" id="menuButton">☰</button>
+
+    <ul class="nav-links" id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="cause-list.html" class="active">Cause List</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="case-search.html">Case Search</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<section class="page-header">
+
+    <div>
+        <span>COURT SCHEDULE</span>
+        <h1>Cause List</h1>
+        <p>Scheduled proceedings and matters</p>
+    </div>
+
+</section>
+
+
+<section class="table-section">
+
+    <div class="section-heading">
+        <span>SEARCH</span>
+        <h2>Find a Scheduled Matter</h2>
+    </div>
+
+    <div class="filters">
+
+        <input type="date" id="dateFilter">
+
+        <select id="courtFilter">
+            <option value="">All Courts</option>
+            <option value="Court Room 1">Court Room 1</option>
+            <option value="Court Room 2">Court Room 2</option>
+            <option value="Court Room 3">Court Room 3</option>
+        </select>
+
+        <input type="text"
+               id="causeSearch"
+               placeholder="Search case or matter...">
+
+    </div>
+
+
+    <div class="table-wrapper">
+
+        <table id="causeTable">
+
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Case / Matter</th>
+                    <th>Court Room</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                
+            <tbody id="causeTableBody">
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="print-area">
+        <button class="btn btn-dark" onclick="window.print()">
+            🖨 Print Cause List
+        </button>
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>⚖ Malindi Law Court</h2>
+            <p>Justice • Service • Integrity</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="notices.html">Notices</a>
+        </div>
+
+        <div>
+            <h3>Information</h3>
+            <a href="case-search.html">Case Search</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Malindi Law Court Information Portal.
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
